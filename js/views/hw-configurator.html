@@ -1,0 +1,76 @@
+<div class="price-cont">
+	<span class="label">Cena:</span>
+	<span class="price">
+		{{totalPrice}},-&nbsp;Kč
+	</span>
+</div>
+
+<form id="hardware" ng-submit="submit()">
+
+	
+	<!-- cpu -->
+	<label for="">CPU</label>
+	<select name="cpu" ng-model="cpu">
+		<option
+			ng-repeat="item in hardware.cpu" 
+			value="{{item.key}}" 
+			required>{{item.name}}</option>
+	</select>
+	
+	<!-- ram -->
+	<label for="">RAM</label>
+	<select name="ram" ng-model="ram">
+		<option 
+			ng-repeat="item in hardware.ram" 
+			value="{{item.key}}" 
+			required>{{item.name}}</option>
+	</select>
+	
+	<!-- os -->
+	<label for="">OS</label>
+	<select name="os" ng-model="os">
+		<option 
+			ng-repeat="item in hardware.os" 
+			value="{{item.key}}" 
+			required>{{item.name}}</option>
+	</select>
+	
+	<!-- hdd -->
+	<label for="">HDD</label>
+	<select name="hdd" ng-model="hdd">
+		<option 
+			ng-repeat="item in hardware.hdd" 
+			value="{{item.key}}" 
+			required>{{item.name}}</option>
+	</select>
+	
+	<!-- display -->
+	<label for="">Display</label>
+	<select name="display" ng-model="display">
+		<option 
+			ng-repeat="item in hardware.display" 
+			value="{{item.key}}" 
+			required>{{item.name}}</option>
+	</select>
+	
+	<!-- keyboard -->
+	<label for="">Keyboard</label>
+	<select name="keyboard" ng-model="keyboard">
+		<option 
+			ng-repeat="item in hardware.keyboard" 
+			value="{{item.key}}" 
+			required>{{item.name}}</option>
+	</select>
+	
+	<!-- coms -->
+	<label for="">Comunications</label>
+	<select name="coms" ng-model="coms">
+		<option 
+			ng-repeat="item in hardware.coms" 
+			value="{{item.key}}" 
+			required>{{item.name}}</option>
+	</select>
+	
+	<input type="submit" value="Vložit do košíku" />
+
+</form>

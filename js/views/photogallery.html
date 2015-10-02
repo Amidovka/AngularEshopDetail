@@ -1,0 +1,45 @@
+<div class="slider">
+	
+	<img 
+		ng-repeat="image in images" 
+		ng-src="{{image}}"
+		ng-show="isActive($index)"
+		class="slide"
+		width="800"
+		height="auto"
+		ng-swipe-left="prev()"
+		ng-swipe-right="next()"
+		 />
+
+	<ul id="imgs" class="hidden">
+		<li><img src="images/T420-side-angle.jpg" alt="T420-side-angle" /></li>
+		
+		<li><img src="images/T420-bottom.jpg" alt="T420-bottom" /></li>
+		<li><img src="images/T420-front.jpg" alt="T420-front" /></li>
+		<li><img src="images/T420-keyboard-close.jpg" alt="T420-keyboard-close" /></li>
+		<li><img src="images/T420-keyboard.jpg" alt="T420-keyboard" /></li>
+		<li><img src="images/T420-left.jpg" alt="T420-left" /></li>
+		<li><img src="images/T420-open-from-back.jpg" alt="T420-open-from-back" /></li>
+		<li><img src="images/T420-right.jpg" alt="T420-right" /></li>
+		<li><img src="images/T420-top.jpg" alt="T420-top" /></li>
+		<li><img src="images/T420-touch-pad.jpg" alt="T420-touch-pad" /></li>
+	</ul>
+	<!--
+		^(.*)T420(.*).jpg$
+		<li><img src="images/T420\2.jpg" alt="T420\2" /></li>
+	-->
+	
+	<a href="" class="arrow prev" ng-click="prev()"></a>
+	<a href="" class="arrow next" ng-click="next()"></a>
+
+	<ul class="nav">
+		<li 
+			ng-repeat="image in images"
+			ng-class="{'active':isActive($index)}"
+			ng-click="setIndex($index)">
+			<img 
+				ng-src="{{image}}" />
+		</li>
+	</ul>
+
+</div>

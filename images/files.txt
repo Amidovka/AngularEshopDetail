@@ -1,0 +1,20 @@
+ Svazek v jednotce C nem  § dnou jmenovku.
+ S‚riov‚ Ÿ¡slo svazku je 382E-2B62.
+
+ Vìpis adres ýe C:\Users\Administrator\workspace\Photogallery\images
+
+01.10.2015  09:59    <DIR>          .
+01.10.2015  09:59    <DIR>          ..
+01.10.2015  09:59                 0 files.txt
+01.10.2015  07:33           194ÿ969 T420-bottom.jpg
+01.10.2015  07:32            48ÿ058 T420-front.jpg
+01.10.2015  07:32            74ÿ318 T420-keyboard-close.jpg
+01.10.2015  07:32            80ÿ779 T420-keyboard.jpg
+01.10.2015  07:33            45ÿ480 T420-left.jpg
+01.10.2015  07:32            42ÿ563 T420-open-from-back.jpg
+01.10.2015  07:33            39ÿ878 T420-right.jpg
+01.10.2015  07:32            55ÿ089 T420-side-angle.jpg
+01.10.2015  07:32            71ÿ483 T420-top.jpg
+01.10.2015  07:33            51ÿ667 T420-touch-pad.jpg
+           Soubor…:     11,   Bajt…:                704ÿ284
+           Adres ý…:     2,   Volnìch bajt…: 228ÿ224ÿ389ÿ120

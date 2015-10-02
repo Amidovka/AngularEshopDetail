@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="Configurator">
+	<head>
+		<meta charset="utf-8" />
+		<title>Computer configurator</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/photogallery.css" />
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="http://code.angularjs.org/1.2.0rc1/angular.js"></script>
+		<script src="http://code.angularjs.org/1.2.0rc1/angular-animate.min.js"></script>
+		<script src="http://code.angularjs.org/1.2.0rc1/angular-touch.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controllers/main.js"></script>
+		<script src="js/controls/photogallery.js"></script>
+		<script src="js/controls/hw-configurator.js"></script>
+		
+	</head>
+	<body ng-controller="MainCtrl">
+
+		<div class="container">
+		
+			<h1>Lenovo Thinkpad T450s</h1>
+			<ng-photogallery></ng-photogallery>
+			<ng-hw-configurator></ng-hw-configurator>
+			
+		</div>
+		
+	</body>
+</html>

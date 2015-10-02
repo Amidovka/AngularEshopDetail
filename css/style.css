@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300&subset=latin,greek,greek-ext,latin-ext,vietnamese,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800);
+
+body{
+	background:silver;
+    font: normal 14px 'Open Sans', sans-serif;
+}
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+form {
+	background:white;
+	border-radius: 10px;
+	padding: 30px;
+	width: 380px;
+	margin: 20px auto;
+}
+label {
+	display:inline-block;
+	width: 100px;
+	margin: 5px 20px;
+}
+
+input[type="text"],
+input[type="url"],
+textarea,
+select {
+    display: block;
+    padding: 8px;
+    margin: 5px 15px;
+    color: #555;
+    background: #fff;
+    border: 1px solid #ddd;
+    outline: none;
+    width: 350px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font: normal 1em 'Open Sans', sans-serif;
+    -webkit-box-shadow: 1px 1px 1px #fff;
+    -moz-box-shadow: 1px 1px 1px #fff;
+    box-shadow: 1px 1px 1px #fff;
+}
+
+nput[type="text"]:focus,
+textarea:focus,
+select:focus {
+    border: 1px solid #6f97c7;
+}
+
+input[type="submit"] {
+	margin: 30px auto 0 auto;
+	display:block;
+    padding: 10px;
+    color: #fff;
+    background: #5a7ba2;
+    font: 100 1.6em 'Dosis', sans-serif;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    width: 248px;
+    outline: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.price-cont{
+	width: 350px;
+	margin: 30px auto;
+	color:red;
+	text-align: center;
+}
+.price-cont span.label{font-size:250%;}
+.price-cont span.price{
+	font-weight:bold;
+	font-size:300%;
+}
